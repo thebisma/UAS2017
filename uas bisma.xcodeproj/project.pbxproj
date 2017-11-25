@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5433672A3A39CC58EB7E3B2F /* Pods_uas_bisma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDBF0A74338AAE70062396F /* Pods_uas_bisma.framework */; };
 		6A0714FC1FC9051C009AEA97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A0714FB1FC9051C009AEA97 /* GoogleService-Info.plist */; };
+		6A0714FE1FC917CA009AEA97 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0714FD1FC917CA009AEA97 /* LoginViewController.swift */; };
 		6AFA015A1FBFCC8B0032167F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA01591FBFCC8B0032167F /* AppDelegate.swift */; };
 		6AFA015C1FBFCC8B0032167F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA015B1FBFCC8B0032167F /* ViewController.swift */; };
 		6AFA015F1FBFCC8B0032167F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFA015D1FBFCC8B0032167F /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		41653E379A72A41EC1146A09 /* Pods-uas bisma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uas bisma.release.xcconfig"; path = "Pods/Target Support Files/Pods-uas bisma/Pods-uas bisma.release.xcconfig"; sourceTree = "<group>"; };
 		6A0714FB1FC9051C009AEA97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6A0714FD1FC917CA009AEA97 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6AFA01561FBFCC8B0032167F /* uas bisma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uas bisma.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AFA01591FBFCC8B0032167F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AFA015B1FBFCC8B0032167F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				6AFA01591FBFCC8B0032167F /* AppDelegate.swift */,
 				6AFA015B1FBFCC8B0032167F /* ViewController.swift */,
 				6AFA015D1FBFCC8B0032167F /* Main.storyboard */,
+				6A0714FD1FC917CA009AEA97 /* LoginViewController.swift */,
 				6AFA01601FBFCC8B0032167F /* Assets.xcassets */,
 				6AFA01621FBFCC8B0032167F /* LaunchScreen.storyboard */,
 				6AFA01651FBFCC8B0032167F /* Info.plist */,
@@ -250,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A0714FE1FC917CA009AEA97 /* LoginViewController.swift in Sources */,
 				6AFA015C1FBFCC8B0032167F /* ViewController.swift in Sources */,
 				6AFA015A1FBFCC8B0032167F /* AppDelegate.swift in Sources */,
 			);
